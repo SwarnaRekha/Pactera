@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.pactera.tests.Search">
+        <methods>
+          <include name="aaaSetUp"/>
+          <include name="testSearch" invocation-numbers="0"/>
+          <include name="zzzTearDown"/>
+          <include name="zzzzCloseAllOpenBrowsers"/>
+        </methods>
+      </class> <!-- com.pactera.tests.Search -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
